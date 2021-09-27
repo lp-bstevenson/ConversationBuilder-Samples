@@ -57,11 +57,7 @@ This solution utilises a 'Bot' Type Conversational Cloud user, which logins to t
 
 8. Save and exit settings
 
-  ## Create the function
-1. Complete the *Coding Details* section with the following:
-   * **Event**: No Event
-   * **Template**: Greeting Template
-   * **Access to external domains?**: No
+## Create the function
 
 1. Complete the _Coding Details_ section with the following:
 
@@ -70,8 +66,6 @@ This solution utilises a 'Bot' Type Conversational Cloud user, which logins to t
    - **Access to external domains?**: Yes: On the following screen, add `*.context.liveperson.net` to ensure the context service URL is accessible from the function. Alternatively, the domain can be whitelisted from the FaaS settings page.
 
    Click _Continue_
-
-2. Complete the _Function Description_ section with the following:
 
 2. Complete the *Function Description* section with the following:
    * **Function Name**: faas-application-login
